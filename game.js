@@ -2,7 +2,7 @@ import { PIECES_DATA, BG_DATA, PASSWORD } from "./level.js";
 import { Piece } from "./piece.js";
 import { Grid } from "./grid.js";
 
-const DEBUG = true;
+const DEBUG = false;
 const SCALING = 0.8;
 let PIECES = PIECES_DATA.map((pdata) => new Piece(...pdata));
 
